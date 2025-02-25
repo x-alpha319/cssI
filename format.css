@@ -1,0 +1,23 @@
+h5{
+    text-align: right;
+    line-height: 0.1;
+    text-transform: capitalize;
+
+}
+h4{
+    line-height: 0.1;
+    text-transform: capitalize;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-shadow: -10px -10px 10px black;
+    
+}
+b{
+    line-height: 1px;
+}
+i{
+    text-align: right;
+}
