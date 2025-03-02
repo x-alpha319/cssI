@@ -44,3 +44,10 @@ button{
 label{
     color: white;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    color: white;
+}
