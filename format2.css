@@ -51,4 +51,20 @@ a{
 }
 li{
     color: white;
+    list-style-type: none;
+}
+.reg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.con{
+    background-color: white;
+    padding: 10px;
+}
+.jugate{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
 }

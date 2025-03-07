@@ -1,0 +1,66 @@
+.layer1{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 10px;
+    
+
+}
+.layer2{
+    background: blue;
+    color: white;
+    text-transform: uppercase;
+    padding-right: 50px;
+    
+}
+li{
+    display: inline;
+    /* padding: 0px; */
+    /* margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px; */
+    margin: 10px;
+    
+    
+}
+button{
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+}
+img{
+    width: 40px;
+    height: 40px;
+    
+}
+.trans{
+    color: rgba(255, 255, 255,0.8);
+}
+.layer2px{
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+.save{
+    background-color: lavender;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 60px;
+}
+.front{
+    text-decoration: none;
+    color: aquamarine;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+    

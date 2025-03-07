@@ -51,4 +51,24 @@ textarea{
 }
 li{
     color: white;
+    list-style-type: none;
+    /* align-items: center; */
+}
+.area{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    
+}
+.cos{
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+}
+.tan{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    /* align-items: center; */
 }

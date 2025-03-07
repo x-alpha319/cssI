@@ -56,6 +56,7 @@ button{
 }
 li{
     color: white;
+    list-style-type: none;
 }
 input[type="email"]{
     width: 100%;
@@ -70,4 +71,22 @@ input[type="checkbox"]{
 }
 input::placeholder{
     color: white;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.vig{
+    background-color: orange;
+    padding: 2px;
+    align-items: center;
+}
+.nvig{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    
 }

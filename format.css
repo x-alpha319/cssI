@@ -1,3 +1,7 @@
+body{
+    background-image: url(pxels-felixmittermeier-957024.jpg);
+    background-size: contain;
+}
 h5{
     text-align: right;
     line-height: 0.1;
@@ -47,5 +51,25 @@ img{
 a{
     color: black;
     text-decoration: none;
+}
+.green{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cloud{
+    background-color:yellow;
+    color: white;
+    padding: 10px;
+}
+.rein{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+.ted{
+    list-style-type: none;
 }
    
