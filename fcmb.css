@@ -131,6 +131,7 @@ a{
 .fax{
     background-color: white;
     display: inline-block;
+    margin: 0px;
 }
 .chime{
     border: 1px solid black;
