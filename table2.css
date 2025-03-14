@@ -1,0 +1,47 @@
+.col{
+    background-color: green;
+}
+.hue{
+    background-color: blue;
+}
+.low{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+
+.tik{
+    background-color: green;
+}
+.tok{
+    background-color: red;
+}
+.tin{
+    background-color: yellow;
+}
+.till{
+    background-color: blue;
+}
+.rev{
+    display: inline-block;
+    padding: 10px;
+}
+.zont{
+    /* background-color: blue; */
+    width: fit-content;
+    /* justify-content: center; */
+    margin-right: auto;
+    margin-left: auto;
+}
+.hori1{
+    list-style-type: none;   
+}
+a{
+    text-decoration: none;
+    justify-content: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}

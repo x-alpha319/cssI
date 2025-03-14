@@ -1,0 +1,42 @@
+/* .hor .zon:nth-child(odd){
+    background-color: black;
+} */ 
+ .zon:nth-child(odd){
+    background-color: black;
+ }
+ .tal:nth-child(even){
+    background-color: black;
+ }
+ table{
+    border: 20px groove gold ;
+    outline: invert;
+ }
+ .riz{
+    background-color: red;
+    border: 0px;
+ }
+ td{
+    border: 0px;
+ }
+ .hori1{
+   list-style-type: none;   
+}
+a{
+   text-decoration: none;
+   justify-content: center;
+}
+.rev{
+   display: inline-block;
+   padding: 10px;
+}
+.zont{
+   /* background-color: blue; */
+   width: fit-content;
+   /* justify-content: center; */
+   margin-right: auto;
+   margin-left: auto;
+}
+table{
+   margin-left: auto;
+   margin-right: auto;
+}

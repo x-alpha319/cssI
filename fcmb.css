@@ -1,6 +1,7 @@
 .row{
     display: flex;
     flex-direction: row;
+    justify-content: center;
    
 }
 .form{
@@ -8,8 +9,8 @@
     padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    margin: 10px;
-    margin-left: 60px;
+    /* margin: 10px; */
+    /* margin-left: 60px; */
     height: 300px;
     
 }
@@ -108,7 +109,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 160px;
+    margin-right: 115px;
     /* border: 1px solid black; */
     
 }
@@ -153,8 +154,8 @@ a{
     background-color: dimgrey;
     color: white;
     justify-content: center;
-    padding-left: 40px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
