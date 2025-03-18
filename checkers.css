@@ -1,6 +1,3 @@
-/* .hor .zon:nth-child(odd){
-    background-color: black;
-} */ 
  .zon:nth-child(odd){
     background-color: black;
  }
@@ -8,7 +5,7 @@
     background-color: black;
  }
  table{
-    border: 20px groove gold ;
+    border: 25px groove gold ;
     outline: invert;
  }
  .riz{
@@ -17,27 +14,32 @@
  }
  td{
     border: 0px;
+    box-shadow: inset 0px 0px 9px 0px grey;
+    outline: 0px;
+   
  }
  .hori1{
    list-style-type: none;
-   text-transform: capitalize;   
+   text-transform: capitalize;  
 }
 a{
    text-decoration: none;
    justify-content: center;
+   color: white;
 }
 .rev{
    display: inline-block;
    padding: 10px;
+   background-color: blue;
+   margin: 9px;
 }
 .zont{
-   /* background-color: blue; */
    width: fit-content;
-   /* justify-content: center; */
    margin-right: auto;
    margin-left: auto;
 }
 table{
    margin-left: auto;
    margin-right: auto;
+   box-shadow: inset 2px 2px 2px 2px grey;
 }
