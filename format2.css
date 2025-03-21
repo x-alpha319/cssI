@@ -63,9 +63,53 @@ li{
     padding: 10px;
     margin: 10px;
 }
-.jugate{
-    background-color: blue;
+.rev{
+    display: inline-block;
     padding: 10px;
-    margin: 10px;
-    align-items: center;
+    background-color: blue;
+   margin: 9px;
+}
+.hori1{
+    list-style-type: none;   
+}
+a{
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.parent{
+    display: inline-block;
+    background-color: blue;
+    width: fit-content;
+    padding: 10px;
+}
+.child{
+    visibility: hidden;
+    position: absolute;
+    background-color: bisque;
+    width: 100px;
+    padding: 0px;
+    /* justify-content: center; */
+    /* background-color: red; */
+}
+.parent:hover .child{
+    visibility: visible;
+    /* background-color: green; */
+}
+.riv{
+    padding: 0px;
+    list-style-type: none;
+    /* background-color: blue; */
+    color: black;
+   margin: 2px;
+}
+.stchild{
+    /* padding: 20px; */
+}
+.stchild:hover{
+    color: darkslategrey;
 }

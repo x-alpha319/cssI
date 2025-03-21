@@ -39,7 +39,7 @@ button{
     padding: 4px;
 }
 a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 textarea{
@@ -54,7 +54,7 @@ li{
     list-style-type: none;
     /* align-items: center; */
 }
-.area{
+.hori{
     display: flex;
     flex-direction: row;
    justify-content: center;
@@ -63,12 +63,44 @@ li{
 .cos{
     background-color: black;
     padding: 10px;
-    align-items: center;
-}
-.tan{
-    background-color: white;
-    padding: 10px;
-    margin: 10px;
-    color: black;
     /* align-items: center; */
+    
+}
+.rev{
+    display: inline-block;
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    margin: 9px;
+    
+    
+}
+.parent{
+    display: inline-block;
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+}
+.child{
+    visibility: hidden;
+    position: absolute;
+    background-color: bisque;
+    width: 100px;
+    padding: 0px;
+    /* justify-content: center; */
+    /* background-color: red; */
+}
+.parent:hover .child{
+    visibility: visible;
+    /* background-color: green; */
+}
+.riv{
+    padding: 0px;
+    list-style-type: none;
+    /* background-color: blue; */
+    color: black;
+   /* margin: 2px; */
+}
+.stchild{
+    /* padding: 20px; */
 }

@@ -6,6 +6,8 @@
     scrollbar-width: none;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
 }
 img{
     width: 60px;
@@ -26,12 +28,70 @@ p{
     list-style-type: none;
     background-color: blue;
 }
+.gat{
+    display: block;
+    margin: 15px;
+}
+.got{
+    padding: 10px;
+    list-style-type: none;
+    background-color: blue
+}
 .nvig{
     color: black;
     background-color: white;
     padding: 5px;
     margin: 10px;
     text-decoration: none;
-}p{
+}
+.vig{
+    color: black;
+    /* background-color: white; */
+    font-size:20px;
+    padding: 0px;
+    text-decoration: none;
+}
+.vig:hover{
+    color: yellow;
+}
+.child{
+    visibility: hidden;
+    position: absolute;
+    padding: 0px;
+}
+.got:hover .child{
+    background-color: aquamarine;
+    width: 150px;
+    visibility: visible;
+}
+.emoji{
+    font-size: 80px;
+    position: fixed;
+    right: 60px;
+    transform: rotate(90deg);
+    animation-name: ball;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: forwards;
+    animation-delay: 0s;
+}
 
+@keyframes ball {
+    0%{
+     transform: rotate(0deg);
+    }
+    /* 25%{
+     transform: rotate(180deg);
+    }
+    75%{
+     transform: rotate(270deg);
+    } */
+    100%{
+      transform: rotate(360deg);
+    }
+    
+}
+.box{
+    border: 10px solid purple;
 }

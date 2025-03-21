@@ -78,14 +78,46 @@ input::placeholder{
     justify-content: center;
    
 }
-.vig{
+.rev{
+    display: inline-block;
+    padding: 10px;
+    background-color: blue;
+   margin: 9px;
+}
+.parent{
+    display: inline-block;
+    padding: 10px;
+    margin: 9px; 
+ }
+ .riv{
+    display: block;
+    margin: 2px;
+    padding: 10px; 
+ }
+ .hover{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    /* margin: 9px; */
+ }
+ .bord:hover{
+    color: white;
+    font-weight: 300;
+ }
+ .horiz{
+    visibility: hidden;
+    position: absolute;
+    padding: 0px;
     background-color: orange;
-    padding: 2px;
-    align-items: center;
-}
-.nvig{
-    color: black;
-    background-color: white;
-    padding: 5px;
-    margin: 10px;
-}
+    width: fit-content;
+    width: 100px;
+ }
+ .parent:hover .horiz{
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+ }
+.hori1{
+    list-style-type: none; 
+    margin-left: 520px;
+}  

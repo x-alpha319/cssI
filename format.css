@@ -6,7 +6,6 @@ h5{
     text-align: right;
     line-height: 0.1;
     text-transform: capitalize;
-
 }
 h4{
     line-height: 0.1;
@@ -15,7 +14,6 @@ h4{
 h3{
     text-align: center;
     background-image: url(road-1072823_1280.jpg);
-
     margin-bottom: 0px;
 }
 p{
@@ -24,10 +22,9 @@ p{
     text-shadow: -10px -10px 10px black;
     /* padding: 20px; */
     border-color: gold;
-    }
+}
 b{
     line-height: 1px;
-    
 }
    
 i{
@@ -39,10 +36,7 @@ h1{
     border: 10px dashed red;
     outline:  10px solid green;
     border-radius: 20px;
-    
-
     box-shadow: inset 0px 0px 20px 15px black;
-
 }
 img{
     width: 200px;
@@ -69,7 +63,31 @@ a{
     margin: 10px;
     align-items: center;
 }
+.reins{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;   
+}
+.ruin:hover .child{
+    visibility: visible;
+}
 .ted{
     list-style-type: none;
+}
+.tod{
+    list-style-type: none;
+}
+.ruin{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    display: inline-block;
+}
+.child{
+    visibility: hidden;
 }
    
